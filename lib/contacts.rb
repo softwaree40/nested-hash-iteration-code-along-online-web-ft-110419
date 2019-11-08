@@ -19,8 +19,9 @@ def remove_strawberry(contacts)
       if persons == "Freddy Mercury"
         data.each do |att ,value|
           if att == :favorite_ice_cream_flavors
-            
+            value.delete_by do |ice_cream| ice_cream == 
            binding.pry
+               end
              end
           end
        end
