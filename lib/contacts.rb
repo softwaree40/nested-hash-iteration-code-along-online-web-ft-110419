@@ -20,7 +20,8 @@ def remove_strawberry(contacts)
         data.each do |att ,value|
           if att == :favorite_ice_cream_flavors
             
-      binding.pry
+           binding.pry
+             end
           end
        end
     end
