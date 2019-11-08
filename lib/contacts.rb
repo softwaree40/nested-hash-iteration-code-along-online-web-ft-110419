@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
       if persons == "Freddy Mercury"
         data.each do |att ,value|
           if att == :favorite_ice_cream_flavors
-            value.delete_by {|ice_cream|ice_cream == "strawberry"}
+            value.delete_if {|ice_cream|ice_cream == "strawberry"}
               
           # binding.pry
                
